@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  steamrt:
+    container_name: steamrt-soldier-nodegyp
+    image: steamrt-soldier-nodegyp
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: tail -f /dev/null
