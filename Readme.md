@@ -6,7 +6,7 @@ Build electron and node application on Steam Runtime (Ubuntu 18.04)
 * Based on recent [Steam Runtime Soldier](https://gitlab.steamos.cloud/steamrt/steamrt/-/blob/steamrt/soldier/README.md)
   * Steam Runtime Scout was too old for such scenario, hard to get good python >= 3.6, gcc 4.9, node 14, ...)
   * Most debian 12.x repo were outdated/removed, making any dependency a hasle to install
-* Design to build electron or node native for linux
+* Design to build electron or node native for Steam Linux
   * add `nodejs 14.x`
   * add `npm`, `node-gyp` and `electron-rebuild`
 
